@@ -1,4 +1,4 @@
-package com.example.bcs.tpdev_project;
+package activities;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -18,6 +18,7 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.Toast;
 
+import com.example.bcs.tpdev_project.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -28,10 +29,7 @@ import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.auth.FirebaseUser;
 
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 
-import activities.MainActivity;
-import activities.ProfilActivity;
 import classes.User;
 import controllers.DataBaseManager;
 
