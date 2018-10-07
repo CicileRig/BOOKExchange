@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "974243812309",
+    "firebase_url": "https://bookexchange-5f348.firebaseio.com",
+    "project_id": "bookexchange-5f348",
+    "storage_bucket": "bookexchange-5f348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974243812309:android:b4393e56a91bc570",
+        "android_client_info": {
+          "package_name": "com.example.bcs.tpdev_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974243812309-jud9urk4mak73bbesu74dtfvlheoht91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHcQ-4WCFk2spZyAjcKdDpYEQB1O4pOho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
