@@ -56,49 +56,12 @@ public class ProfilActivity extends AppCompatActivity {
 
         userTextView = findViewById(R.id.username);
 
-        FirebaseAuth mAuth= FirebaseAuth.getInstance();
-        final FirebaseUser firebaseUser = mAuth.getCurrentUser();
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("users");
-
-        myRef.addValueEventListener(new ValueEventListener() {
-            public static final String TAG = "";
-
+        dataBaseManager.getUserById(new DataBaseManager.ResultGetter<User>() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-
-                Boolean trouv = false;
-                HashMap value = (HashMap)dataSnapshot.getValue();
-                Set cles = value.keySet();
-                Iterator it = cles.iterator();
-                User user = new User("","","","","","","","");
-
-                while (it.hasNext() & !trouv){
-                    String key = (String)it.next();
-                    Map<String, Object> postValues = (Map)value.get(key);
-
-                    if(key.equals(firebaseUser.getUid().toString())){
-
-                        user.setName( postValues.get("name").toString());
-                        user.setSurname(postValues.get("surname").toString());
-                        user.setAge(postValues.get("age").toString());
-                        user.setMailAdress(postValues.get("mailAdress").toString());
-                        user.setPassword(postValues.get("password").toString());
-                        Log.d("TAG clé", key.toString());
-                        userTextView.setText(user.getName().toString()+" "+user.getSurname().toString());
-                    }
-                }
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w(TAG, "Failed to read value.", error.toException());
+            public void onResult(User user) {
+                userTextView.setText(user.getName().toString()+" "+user.getSurname().toString());
             }
         });
-
-
 
         // gestion des contenus du menu mes livres et mes events
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav_view);

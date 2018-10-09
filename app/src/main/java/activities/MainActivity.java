@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity implements
     private EditText mPasswordField = null;
 
     private FirebaseAuth mAuth;
-    private DataBaseManager dataBaseManager = new DataBaseManager();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,8 +92,6 @@ public class MainActivity extends AppCompatActivity implements
             return;
         }
 
-        //showProgressDialog();
-
         // [START sign_in_with_email]
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -117,12 +114,6 @@ public class MainActivity extends AppCompatActivity implements
                             updateUI(null);
                         }
 
-                        // [START_EXCLUDE]
-                        if (!task.isSuccessful()) {
-                          //  mStatusTextView.setText(R.string.auth_failed);
-                        }
-                        //hideProgressDialog();
-                        // [END_EXCLUDE]
                     }
                 });
     }
@@ -165,7 +156,6 @@ public class MainActivity extends AppCompatActivity implements
         if (i == R.id.emailCreateAccountButton) {
             Intent t = new Intent(this, RegistrationActivity.class);
             startActivity(t);
-            //createAccount(mEmailField.getText().toString(), mPasswordField.getText().toString());
         } else if (i == R.id.emailSignInButton) {
             signIn(mEmailField.getText().toString(), mPasswordField.getText().toString());
         }

@@ -14,6 +14,10 @@ public class User implements Serializable{
     private String password;
     private ArrayList<Book> booksList;
 
+    public  User(){
+
+    }
+
     public User(String s, String s1, String s2, String s3, String s4, String s5, String s6, String s7) {}
 
     public User(String name, String surname, String mailAdress, String password, String age, ArrayList<Book> booksList) {
