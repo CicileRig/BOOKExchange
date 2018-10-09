@@ -139,7 +139,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 	android:allowBackup
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:13:9-47
 activity#activities.MainActivity
 ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
@@ -155,17 +155,13 @@ ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\Androi
 	android:name
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:18:27-74
 activity#activities.ProfilActivity
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:21:9-62
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:21:9-22:20
 	android:name
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:21:19-59
-activity#activities.EmailPasswordActivity
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:22:9-78
+activity#activities.RegistrationActivity
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:23:9-77
 	android:name
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:22:19-66
-activity#com.example.bcs.tpdev_project.RegistrationActivity
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:23:9-67
-	android:name
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:23:19-55
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:23:19-65
 uses-sdk
 INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml

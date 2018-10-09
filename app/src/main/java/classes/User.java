@@ -7,7 +7,6 @@ import java.util.Map;
 
 public class User implements Serializable{
 
-    private String userId ;
     private String name;
     private String surname;
     private String mailAdress;
@@ -15,6 +14,7 @@ public class User implements Serializable{
     private String password;
     private ArrayList<Book> booksList;
 
+    public User(String s, String s1, String s2, String s3, String s4, String s5, String s6, String s7) {}
 
     public User(String name, String surname, String mailAdress, String password, String age, ArrayList<Book> booksList) {
         this.name = name;
@@ -25,18 +25,18 @@ public class User implements Serializable{
         this.booksList = booksList;
     }
 
-    public User(String userId, String name, String surname, String mailAdress, String password, String age) {
+
+
+    public User(String name, String surname, String mailAdress, String password, String age) {
         this.name = name;
-        this.userId = userId;
         this.surname = surname;
         this.mailAdress = mailAdress;
         this.age = age;
         this.password = password;
     }
 
-    public User(String email, String userId) {
+    public User(String email) {
         this.mailAdress = email;
-        this.userId = userId;
     }
 
     public String getName() {
@@ -87,13 +87,9 @@ public class User implements Serializable{
         this.booksList = booksList;
     }
 
-    public String getUserId() {
-        return userId;
-    }
 
     public Map<String, Object> toMap() {
         HashMap<String, Object> result = new HashMap<>();
-        result.put("userID", userId);
         result.put("name", name);
         result.put("surname", surname);
         result.put("mailAdress", mailAdress);

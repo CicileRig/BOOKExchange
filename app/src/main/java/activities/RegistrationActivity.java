@@ -163,7 +163,7 @@ public class RegistrationActivity extends AppCompatActivity {
                             Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             activity.updateUI(user);
-                            User myUser = new User(user.getUid().toString(),nameEditText.getText().toString(), surnameEditText.getText().toString()
+                            User myUser = new User(nameEditText.getText().toString(), surnameEditText.getText().toString()
                             , adressEditText.getText().toString(),passwrdEditText.getText().toString(),burthDateEditText.getText().toString());
                             dataBaseManager.writeNewUser(myUser);
                             Intent intent = new Intent(RegistrationActivity.this, ProfilActivity.class);
