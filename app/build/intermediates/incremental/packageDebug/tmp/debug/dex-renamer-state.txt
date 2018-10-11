@@ -1,4 +1,4 @@
-#Sun Oct 07 22:02:56 WAT 2018
+#Tue Oct 09 10:20:52 WAT 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\62
-base.2=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\63
-base.1=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\65
-base.0=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\64
+base.3=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+base.2=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.1=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+base.0=C\:\\Users\\bcs\\AndroidStudioProjects\\TPDEV_Project2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14

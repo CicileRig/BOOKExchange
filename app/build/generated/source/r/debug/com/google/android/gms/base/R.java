@@ -58,9 +58,9 @@ public final class R {
         public static final int dark = 0x7f08004a;
         public static final int icon_only = 0x7f08006f;
         public static final int light = 0x7f08007e;
-        public static final int none = 0x7f080090;
-        public static final int standard = 0x7f0800cc;
-        public static final int wide = 0x7f0800f1;
+        public static final int none = 0x7f080091;
+        public static final int standard = 0x7f0800cd;
+        public static final int wide = 0x7f0800f2;
     }
     public static final class string {
         public static final int common_google_play_services_enable_button = 0x7f0d0039;

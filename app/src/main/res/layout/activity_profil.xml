@@ -48,6 +48,7 @@
                 app:contentScrim="?attr/colorPrimary"
                 app:expandedTitleMarginEnd="64dp"
                 app:expandedTitleMarginStart="48dp"
+                app:titleEnabled="false"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
                 <android.support.v7.widget.LinearLayoutCompat
@@ -75,11 +76,7 @@
                         android:text="TextView"
                         android:textSize="18sp"
                         android:textStyle="bold" />
-
-
-
                 </android.support.v7.widget.LinearLayoutCompat>
-
 
                 <android.support.v7.widget.Toolbar
                     android:id="@+id/toolbar"
@@ -87,8 +84,8 @@
                     android:layout_height="?attr/actionBarSize"
                     android:background="?attr/colorPrimary"
                     app:layout_scrollFlags="scroll|enterAlways"
-                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:layout_collapseMode="pin"/>
 
             </android.support.design.widget.CollapsingToolbarLayout>
 

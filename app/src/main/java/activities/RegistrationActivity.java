@@ -213,8 +213,6 @@ public class RegistrationActivity extends AppCompatActivity {
                 });
         // [END create_user_with_email]
 
-
-
     }
 
     public boolean validateForm() {

@@ -118,7 +118,6 @@ public class MainActivity extends AppCompatActivity implements
                 });
     }
 
-
     private boolean validateForm() {
         boolean valid = true;
 
@@ -142,7 +141,6 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     public void updateUI(FirebaseUser user) {
-        //hideProgressDialog();
         if (user != null) {
 
         } else {

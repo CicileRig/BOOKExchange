@@ -59,7 +59,6 @@ public class DataBaseManager {
         String  userId =  userFirebase.getUid();
         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
 
-        String key = mDatabase.child("users").push().getKey();
         mDatabase.child("users").child(userId).setValue(user);
 
         Map<String, Object> postValues = user.toMap();
