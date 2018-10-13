@@ -20,6 +20,12 @@ public class Book {
         this.language = language;
     }
 
+    public Book(String id, String title, String language) {
+        this.id = id;
+        this.title = title;
+        this.language = language;
+    }
+
     public String getId() {
         return id;
     }

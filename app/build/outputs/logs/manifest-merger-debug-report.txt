@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.facebook.android:facebook-login:4.37.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\facebook-login-4.37.0.aar\008946b9b1e88293441326fccec2ae3c\AndroidManifest.xml:21:1-31:12
 MERGED from [com.android.support:design:27.1.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\1266d9f7523ae224db8a0cdf412b5229\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-common:4.37.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\facebook-common-4.37.0.aar\74255ce5efdb696081ac03bfa1bd489c\AndroidManifest.xml:21:1-37:12
@@ -49,20 +49,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\bcs\.gradle\ca
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\23ce2bc7922bede765b507015acba914\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e4ad818c1e6ae33e0ee3fa19b561651a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\43c290f5cf4ae6a44f8e2ef0e0a42d1c\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:2:11-69
@@ -81,7 +81,7 @@ MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\bcs\.gradle\cache
 	android:name
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:7:5-25:19
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:7:5-23:19
 MERGED from [com.facebook.android:facebook-login:4.37.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\facebook-login-4.37.0.aar\008946b9b1e88293441326fccec2ae3c\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.37.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\facebook-login-4.37.0.aar\008946b9b1e88293441326fccec2ae3c\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:4.37.0] C:\Users\bcs\.gradle\caches\transforms-1\files-1.1\facebook-common-4.37.0.aar\74255ce5efdb696081ac03bfa1bd489c\AndroidManifest.xml:28:5-35:19
@@ -141,27 +141,27 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 	android:theme
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:13:9-47
 activity#activities.MainActivity
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:14:9-16:20
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:14:9-69
 	android:name
 		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:14:19-57
 activity#activities.ProfilActivity
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:17:19-59
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:15:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:19:27-74
 activity#activities.RegistrationActivity
-ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:24:9-68
+ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:22:9-68
 	android:name
-		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:24:19-65
+		ADDED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml:22:19-65
 uses-sdk
 INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bcs\AndroidStudioProjects\TPDEV_Project2\app\src\main\AndroidManifest.xml
