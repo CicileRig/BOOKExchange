@@ -59,7 +59,7 @@
 
     <EditText
         android:id="@+id/adressEditText"
-        android:layout_width="328dp"
+        android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@drawable/edit_text_style"
@@ -78,7 +78,7 @@
         android:layout_height="46dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@android:drawable/ic_menu_my_calendar"
+        android:background="@drawable/google_calendar"
         app:layout_constraintBottom_toBottomOf="@+id/burthDateEditText"
         app:layout_constraintEnd_toEndOf="@+id/surnameEditText"
         app:layout_constraintTop_toTopOf="@+id/burthDateEditText" />
@@ -116,6 +116,7 @@
         android:paddingLeft="15dp"
         android:paddingTop="10dp"
         android:text="Mot de passe"
+        app:layout_constraintEnd_toEndOf="@+id/adressEditText"
         app:layout_constraintStart_toStartOf="@+id/adressEditText"
         app:layout_constraintTop_toBottomOf="@+id/adressEditText" />
 
