@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -40,7 +39,7 @@ public class Book_List_Adapter extends ArrayAdapter<Book> implements View.OnClic
 
         switch (v.getId())
         {
-            case R.id.book_title:
+            case R.id.event_name:
                 Snackbar.make(v, "Release date " +book.getTitle(), Snackbar.LENGTH_LONG)
                         .setAction("No action", null).show();
                 break;
@@ -63,7 +62,7 @@ public class Book_List_Adapter extends ArrayAdapter<Book> implements View.OnClic
             viewHolder = new ViewHolder();
             LayoutInflater inflater = LayoutInflater.from(getContext());
             convertView = inflater.inflate(R.layout.row_book_item, parent, false);
-            viewHolder.bookTitle =  convertView.findViewById(R.id.book_title);
+            viewHolder.bookTitle =  convertView.findViewById(R.id.event_name);
 
             result=convertView;
 
